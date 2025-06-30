@@ -1,13 +1,16 @@
 import React from 'react'
 import './App.css'
 import Navbar from './Navbar'
-import Footer from './footer'
+import FooterLink from './FooterLink'
+import  ScrollToTop from './ScrollToTop'
+
 function App() {
 
   return (
     <div>
+      <ScrollToTop />
       <Navbar/>
-      <Footer/>
+      <FooterLink/> 
     </div>
   )
 }
