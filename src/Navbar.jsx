@@ -33,7 +33,7 @@ function Navbar() {
         <div className="flex items-center space-x-6 text-sm">
           <Link to="/signup" className="hover:text-blue-600 text-gray-800 font-medium">Signup</Link>
           <Link to="/about" className="hover:text-blue-600 text-gray-800 font-medium">About</Link>
-          <span className="hover:text-blue-600 text-gray-800 font-medium cursor-pointer">Products</span>
+          <Link to="/products" className="hover:text-blue-600 text-gray-800 font-medium cursor-pointer">Products</Link>
           <Link to="/pricing" className="hover:text-blue-600 text-gray-800 font-medium">Pricing</Link>
           <Link to="/support" className="hover:text-blue-600 text-gray-800 font-medium">Support</Link>
 

@@ -1,0 +1,785 @@
+{
+  "terms_and_conditions": [
+    {
+        "section_id": 1,
+        "section_name": "General Terms",
+        "points": [
+        {
+          "id": 1.1,
+          "content": "These terms and conditions (“Terms”) contain important information pertaining to your trading and demat accounts with Zerodha Broking Limited and Zerodha Commodities Private Limited (hereinafter collectively referred to as “Zerodha'', “our” or “us”). The Terms govern the relationship between us and you, the user (“You” or “Client”). Trading in the Cash, Derivatives and Currency Derivatives segments of the BSE and NSE is enabled through Zerodha Broking Limited, a trading member of the Bombay Stock Exchange (“BSE”) and National Stock Exchange (“NSE”, together “Exchanges”) registered with the Securities & Exchange Board of India ('SEBI') having Registration Number INZ000031633. Commodity trading on your account is enabled through Zerodha Commodities Private Limited, a trading member of the MCX (Registration No. 46025) registered with the SEBI having Registration Number INZ000038238. Commodity trading may also be enabled through Zerodha Broking Limited., a trading member of MCX and NSE registered with SEBI having Registration Number INZ000031633. The Depository services for your account are enabled through Zerodha Broking Limited, a Depository Participant with CDSL having SEBI Registration no: IN-DP-431-2019."
+        },
+        {
+          "id": 1.2,
+          "content": "The website and the mobile applications named “Kite by Zerodha”, “Coin by Zerodha”, “Zerodha Varsity” and “Pulse by Zerodha” (collectively referred to as the “Apps”; Website and Apps collectively referred to as the “Platform”) is owned, operated and maintained by Zerodha Broking Limited, a Company incorporated under the Companies Act 2013 with CIN U65929KA2018PLC116815, having its registered office at #153/154, 4th Cross, Dollars Colony, JP Nagar 4th Phase, Bangalore - 560078."
+        },
+        {
+          "id": 1.3,
+          "content": "These Terms shall govern the relationship between Zerodha and its clients (hereinafter “Client”, “you”, or “your”). Access to, and usage of your account and the Platform is subject to your compliance with the Terms set forth herein, read with the Policies and Procedures, and any other documents as may be applicable. This includes but is not limited to the various application forms and undertakings signed by you at the time of opening your account(s). Please note that the information contained herein is subject to change without notice. Please read this page carefully and retain it for future reference. You agree to any and all changes to the Terms without specific communication from Zerodha, by Your continuing usage of the Platform and/or continuing to hold an account with Zerodha."
+        },
+        {
+          "id": 1.4,
+          "content": "Refer to the Standard Operating Procedure for centralised reporting of the demise of an investor through KRAs here."
+        }
+      ]
+    },
+    {
+        "section_id": 2,
+        "section_name": "Disclaimer",
+        "points": [
+            {
+                "id": 2.1,
+                "content":"The Client understands and agrees that all investment and/or trading decisions are based on the Client's own investment objectives and evaluation of prevailing financial circumstances. This extends to all decisions made by the Client on the basis of any information that may be available on the Platform. The Client understands that Zerodha is merely a facilitator providing access to its Clients to participate in the financial and commodity markets, and that Zerodha does not seek to influence or otherwise affect the decision-making process of its Clients in any way whatsoever."
+            },
+            {
+                "id": 2.2,
+                "content":"The Client shall not hold nor seek to hold Zerodha or any of its officers, directors, partners, employees, agents, subsidiaries, affiliates or business associates liable for any trading losses or damages incurred as a consequence of relying upon any information, opinions, advice or any other material whatsoever on the Platform or in any brochures, promotional material or any other literature promulgated by Zerodha or any of its affiliates or partners."
+            },
+            {
+                "id": 2.3,
+                "content":"The Client shall seek independent advice from professionals on the suitability of any investment decisions. The Client acknowledges that employees and representatives of Zerodha are not authorised to give any such advice, and that the Client shall not solicit or rely upon any such advice from Zerodha or any of its employees or representatives. Any advice of this nature inadvertently given by any employee or representative of Zerodha shall strictly be construed as being in their personal capacity, and Zerodha disclaims any liabilities arising thereto."
+            }
+        ]
+    },
+    {
+        "section_id": 3,
+        "section_name": "Account opening and registration",
+        "points": [
+            {
+                "id": 3.1,
+            "content":"Before availing of any online trading services on the Platform, the Client is required to complete Zerodha’s registration process, as may be prescribed from time to time. To register yourself, you are required to follow the procedure mentioned on the Platform, along with any instructions communicated to you by Zerodha’s employees or representatives. Your account shall be opened after submission of the requisite documentation and its verification and at the sole discretion of Zerodha."            },
+            {
+                "id": 3.2,
+                "content":"Online account opening using Aadhaar is currently available only for residents of India opening individual accounts, where the person’s mobile number is linked to the Aadhaar. This is not permissible for non-residents or for any manner of non-individual accounts (HUFs, companies, LLPs, partnerships, etc.)."
+            },
+            {
+                "id": 3.3,
+                "content":"In case of online account opening using Aadhaar, data will be fetched from the KYC database and cannot be edited."
+            },
+            {
+                "id": 3.4,
+                "content":"Any pickup of the required documentation pertaining to the account opening procedure is subject to the availability of our representatives at any particular time and location."
+            }
+        ]
+    },
+    {
+        "section_id": 4,
+        "section_name": "Account security and passwords",
+        "points": [
+            {
+                "id": 4.1,
+                "content":"Zerodha shall provide each Client with a unique ID and password, enabling them to access online trading facilities through the Platform, over the telephone, or in any other manner permitted by Zerodha. Zerodha shall also provide the Client with the login credentials to its back-office platform “Console”, providing the Client access to various reports and statements. All terms regarding the use, reset and modification of such login credentials shall be governed by these Terms, as well as by any other relevant information on the Platform."
+            },
+            {
+                "id": 4.2,
+                "content":"The trading terminal system on our Platform has a stringent two-factor authentication (“2FA”) secure system for every Client to access their accounts. This includes (i) entry of the Client ID and password; and (ii)Kite generated TOTP, OR authentication via TOTP generated by applications such as Authy, Google Authenticator or Microsoft Authenticator OR SMS/Email OTP. This 2FA mechanism is in place in compliance with the SEBI and Stock Exchange guidelines on internet-based trading."
+            },
+            {
+                "id": 4.3,
+                "content":"A link to create a password & 2FA credentials is sent to all Clients along with the welcome email at the time of account opening. Such password and 2FA credentials set by each Client, will be unique to them, and is not known to anyone else. Passwords and 2FA credentials are privileged and confidential information and must be kept in strict confidentiality by each Client. These login credentials should not be shared with any third parties whatsoever."
+            },
+            {
+                "id": 4.4,
+                "content":"As per instructions from SEBI & the Depositories, we are required to perform 2FA verification for all sell transactions where securities are debited from demat accounts using the Online DIS route (see more here). Therefore, the CDSL TPIN set by you will be required to be input each time a debit/sell transaction is initiated on the Platform from your holdings. This will be required only if the Online DIS route is being used, and not if you have submitted the physical Power of Attorney (available here)."
+            },
+            {
+                "id": 4.5,
+                "content":"In case of Call & trade facilities over the telephone, Clients are required to mention the last 4 digits of their Client ID and their personalised 4 digit PIN (known as the “Telephone Support Code”), which is accessible only after logging in to their trading account on the Platform. Telephone Support Codes may be accessed by Clients only after logging into their trading accounts on the Platform through the entry of their Client ID, password and 2FA credentials. Read more about creating, changing, and using your Telephone Support Code here."
+            },
+            {
+                "id": 4.6,
+                "content":"You may reset passwords at any point in time by selecting the ‘Forgot User ID or Password’ link under the ‘Login’ tab of the Website or the Kite app. A reset link is immediately sent to your registered email ID upon this link being selected. A new unique password is required to be created for you to gain access to your trading account on the Platform."
+            },
+            {
+                "id": 4.7,
+                "content":"The Client acknowledges that they shall be responsible for maintaining their Client ID and password in a secure and confidential manner. Clients shall solely be responsible for all orders entered and transactions executed on the Platform using their login credentials, irrespective of whether the person actually executing such transactions were authorised to do so or not. Zerodha assumes no responsibility whatsoever for any liabilities arising out of unauthorised access to a Client’s password or 2FA login credentials."
+            },
+            {
+                "id": 4.8,
+                "content":"The Client acknowledges that they are fully aware of and understand the risks associated with online trading services, including the risk of misuse and unauthorised access to their Client ID, password or login credentials by third parties. The Client also acknowledges the risk of third parties hacking into their Client ID on Zerodha’s platform and unauthorisedly routing orders on behalf of the Client through the System."
+            },
+            {
+                "id": 4.9,
+                "content":"Without prejudice to the provisions above, Clients agree to immediately inform Zerodha in writing if they suspect or discover any unauthorised use of the Client’s ID, password or 2FA credentials, or notice any discrepancies that may be attributable to such unauthorised access, or discover a security flaw in Zerodha’s online trading system available on the Platform (“Online Trading System”). Clients shall provide Zerodha with complete details of such unauthorised use, including the date of such unauthorised use, the manner in which it occurred, the transactions effected pursuant to such unauthorised use, etc. Clients also agree to inform Zerodha immediately if they are unable to retrieve their password or 2FA login credentials even after going through with the ‘Forgot Password” reset procedure."
+            },
+            {
+                "id": 4.10,
+                "content":"Clients agree to notify Zerodha immediately on a priority basis in case they discover any security flaws or vulnerabilities in the Platform or any other components of the Platform."
+            }
+        ]
+    },
+    {
+        "section_id": 5,
+        "section_name": "Modification of details",
+        "points": [
+            {
+                "id": 5.1,
+                "content":"The Client declares that the modification information provided by them, is true to the best of their knowledge."
+            },
+            {
+                "id": 5.2,
+                "content":"The Client undertakes to inform Zerodha Broking Ltd. of any discrepancies, changes, or incorrect information that they become aware of, immediately."
+            },
+            {
+                "id": 5.3,
+                "content":"The Client understands and accepts that in case any information provided for modifying bank account details is incorrect or misleading, they would be held liable for all such consequences/actions taken."
+            },
+            {
+                "id": 5.4,
+                "content":"The Client agrees that this change will affect the Trading and Demat account that they hold with Zerodha Broking Ltd."
+            }
+        ]
+    },
+    {
+        "section_id": 6,
+        "section_name": "Price Data",
+        "points": [
+            {
+                "id": 6.1,
+                "content":"Zerodha does not share real-time price data, except with third parties where it is required for the orderly functioning of the securities market, or where permitted by Applicable Law."
+            },
+            {
+                "id": 6.2,
+                "content":"The Client agrees to use real-time price data shared with them via any of our platforms, only for the purpose of using the platform and activities that can be undertaken on our platforms. The Client represents and warrants that they shall not use real-time price data for any other purpose."
+            },
+            {
+                "id": 6.3,
+                "content":"Zerodha reserves the right to share market price data for investor education and awareness, with time lags as determined by Applicable Law."
+            }
+        ]
+    },
+    {
+        "section_id": 7,
+        "section_name": "Orders",
+        "points": [
+            {
+                "id": 7.1,
+                "content":"All orders and instructions routed through Zerodha’s Platform via the Client’s ID, including but not limited to those for purchase, sale and pledge of any securities, shall be deemed to have been made by the Client."
+            },
+            {
+                "id": 7.2,
+                "content":"Zerodha shall in no way be responsible for any orders entered by the Client by mistake on the Platform. Every order entered by the Client through their Client IDs shall be deemed to be a valid order, for which the Client shall bear full responsibility."
+            },
+            {
+                "id": 7.3,
+                "content":"While placing orders on the telephone, the Client agrees to provide information relating to the customer ID, including but not limited to the Telephone Support Code and any other information that may be required to determine the identity of the Client."
+            },
+            {
+                "id": 7.4,
+                "content":"Although orders are usually routed to the Exchange’s computer systems within a few seconds of the order being placed by the Client on the Platform, Zerodha shall not be liable for any delays in the execution of any order, or for any resultant losses on account of such delays."
+            },
+            {
+                "id": 7.5,
+                "content":"In case of a market order placed on the Platform, the Client understands that the price received shall be the price at which the order is executed by the Exchange’s computer system and that such price may be different from the prevailing price the security was trading at when the order was entered on the Platform."
+            },
+            {
+                "id": 7.6,
+                "content":"The Client understands that all orders placed on the Platform shall be forwarded to the Exchange. In the event the order is placed during trading hours, it shall immediately be routed to and executed on the Exchange, subject to the availability of counterparties. The Client understands that Zerodha does not exercise control over the execution of any orders that have already been sent to the Exchange. Fulfilment of all orders is subject to the vagaries of the market."
+            },
+            {
+                "id": 7.7,
+                "content":"Zerodha cannot guarantee the cancellation or modification of an order pursuant to a Client’s request to that effect. The order will be cancelled or modified only if the Client’s request for cancellation or modification is received by the Exchange before it is executed. Market orders are usually subject to immediate execution."
+            },
+            {   
+                "id": 7.8,
+                "content":"The Client shall not presume an order to have been executed, cancelled or modified until a confirmation from Zerodha is received. Sometimes, due to technical or administrative reasons, a confirmation may not be immediately transmitted to or received by a Client. Such delay does not imply that the order has been executed, cancelled or modified, unless Zerodha confirms so to the Client in writing."
+            },
+            {
+                "id": 7.9,
+                "content":"Zerodha may, from time to time impose or vary limitations on the orders or instructions the Client may place on the Platform. Such limitations include, but are not restricted to exposure limits, turnover limits, limits on the number, value and/or types of securities for which orders may be placed, scrips in respect of which orders can be placed, etc. The Client is aware that Zerodha may need to vary or increase such limitation, or impose new limitations altogether on an urgent basis, based on Zerodha’s assessment of the risk involved and such other factors Zerodha may consider relevant. The Client understands and agrees that Zerodha may at any time, at its sole discretion and without prior notice, prohibit or restrict the Client’s ability to place orders or trade in securities through Zerodha."
+            },
+            {
+                "id": 7.10,
+                "content":"The Client understands that Zerodha may be unable to inform the Client of any such variations, reductions or impositions in advance. The Client agrees that Zerodha shall not be liable to the Client for any losses resulting from such variations, reductions or impositions, or for the Client’s inability to route any order through the Platform. The Client understands and agrees that Zerodha may at any time, at its sole discretion and without prior notice, prohibit or restrict the Client’s ability to place orders or trade in any securities on the Platform."
+            },
+            {
+                "id": 7.11,
+                "content":"Zerodha may, at its sole discretion, reject any order on the Platform for any reason whatsoever, including but not limited to the non-availability of funds in the Client’s trading account, non-availability of securities in the Client’s Demat account, insufficient margin amounts, suspension of scrip- specific trading activities by or on an Exchange, and applicability of circuit breakers to a scrip for which orders have been placed. The Client agrees that in the event that an order is not accepted on the Platform for any reason, Zerodha shall have the right to treat such order as having lapsed."
+            },
+            {
+                "id": 7.12,
+                "content":"The Client understands that if, for any circumstance or for any reason, the markets close before the acceptance by the Exchange of any order, such order may be rejected. The Client further agrees that Zerodha may reject any orders that are being rejected by the Exchange. In case of rejection of an order due to rejection by the Exchange, the Client agrees that the order shall remain declined and shall not be reprocessed in any circumstance."
+            },
+            {
+                "id": 7.13,
+                "content":"Without prejudice to the provisions above, Zerodha may at its sole discretion permit the execution of any orders, irrespective of the balance amount in the Client’s account. This may subsequently be recovered by Zerodha during settlement."
+            },
+            {
+                "id": 7.14,
+                "content":"Pending orders shall be handled as per exchange systems and norms after the market closes for the day."
+            }
+        ]
+    },
+    {
+        "section_id": 8,
+        "section_name": "Trading and settlement",
+        "points": [
+            {
+                "id": 8.1,
+                "content":"The Client agrees that all orders placed through the Online Trading System shall be forwarded by the Online Trading System to the Exchange. All orders placed otherwise than through the Online Trading System shall be forwarded by the system to Exchange terminals or any other order execution mechanism at the discretion of Zerodha. In the event that the order is placed during trading hours, it shall be routed to and executed on the market system."
+            },
+            {
+                "id": 8.2,
+                "content":"Upon execution of any order at the Exchange, Zerodha shall send the Client an electronic contract note as a confirmation via email. This shall be sent within 24 hours of the trade, subject to receipt of files from the Exchange. This shall be deemed to be valid delivery thereof by Zerodha. It is the responsibility of the Client to review immediately upon receipt, all such order confirmations, and to follow up with Zerodha in case such order confirmations are not received within a stipulated time period."
+            },
+            {
+                "id": 8.3,
+                "content":"The Client shall immediately bring to Zerodha’s notice errors in any reports, statements or contract notes of any executed trades, including but not limited to errors in execution prices, scrips, or quantities of securities. Any such discrepancies shall be notified by the Client to Zerodha in writing by email within 24 hours of receipt of such erroneous reports, statements or contract notes. In all cases, Zerodha shall have the right to accept or reject the Client’s objections."
+            },
+            {
+                "id": 8.4,
+                "content":"The Client acknowledges that there may be a delay in the receipt of transaction status reports or statements from the respective Exchanges by Zerodha. Accordingly, Zerodha may forward such delayed reports or statements to the Client in respect of such transactions that were previously unreported. The Client shall not hold Zerodha responsible for any losses suffered on account of such delayed reports or statements or for any errors in such reports or statements computed by or received from any Exchange."
+            },
+            {
+                "id": 8.5,
+                "content":"The Client is aware and acknowledges that the electronic trading systems at the Exchange as well as at the Zerodha offices are vulnerable to temporary disruptions, breakdowns or failures. In the event that such disruptions, breakdowns or failures transpire due to the breakdown of the system or disconnection of a network link, Zerodha may cancel any or all of the Client’s orders or transactions on the Platform. Zerodha may also be unable to cancel orders, and the Client may be unable to place, cancel or modify orders on the Platform. In such an event, Zerodha shall not bear responsibility for any losses that may be incurred by the Client due to such eventualities."
+            },
+            {
+                "id": 8.6,
+                "content":"Zerodha shall, within 24 hours of execution of any trade or promptly as and when available from any other market participant, issue a contract note as per the terms of the SEBI (Brokers and Sub-Brokers) Rules and Regulations, 1992. The Client agrees that Zerodha shall, in most cases, issue contract notes in digital form, which shall be sent by way of email to the email address provided by the Client."
+            },
+            {
+                "id": 8.7,
+                "content":"The Client agrees that if, for any circumstance or for any reason, the markets close before the acceptance of the Order by the Exchange, the order may be rejected. The Client agrees further, that Zerodha may reject Orders if the same are rejected by the Exchange for any reason. In case of rejection of an order due to rejection by the Exchange, the client agrees that the order shall remain declined and shall not be re-processed, in any event. Any such orders shall be considered as lapsed."
+            },
+            {
+                "id": 8.8,
+                "content":"Zerodha may, at its sole discretion, reject any order placed on the Platform or in any other manner due to any reason, including but not limited to the non-availability of funds in the trading account of the client, non-availability of securities in the demat account of the Client with a designated depository participant, insufficiency of margin amount if the Client has opted for margin trading, suspension of scrip- specific trading activities by or on an Exchange and the applicability of a circuit breaker to a scrip in which orders are placed."
+            },
+            {
+                "id": 8.9,
+                "content":"Zerodha shall not be responsible for the non-receipt of communication pertaining to trade confirmation due to any changes in the correspondence address or contact details of the Client that was not intimated to Zerodha in writing. It is the Client’s responsibility to review all trade confirmations, contract notes, invoices and statements of account immediately upon receipt. The correctness of all such communication shall be deemed to be accepted if the Client does not object to Zerodha in writing within 24 hours of receipt of such communication."
+            },
+            {
+                "id": 8.10,
+                "content":"The Client agrees that Zerodha may impose scripwise surveillance, scripwise limits, conditional trading or such other conditions as may be required for the purposes of risk management. The Client also understands that Zerodha may impose surveillance measures that may differ from client to client, based on Zerodha’s assessment of the risk involved and such other factors Zerodha may consider relevant. This includes but is not limited to allowing/disallowing Clients from trading in any security or class of securities, derivatives contracts, leveraged trades etc."
+            },
+            {
+                "id": 8.11,
+                "content":"All orders and instructions on the Platform, the transactions executed pursuant thereto, and the settlement of such transactions thereof shall be in accordance with the guidelines and provisions laid down by the SEBI and the relevant Exchanges. Clients agree to abide and be bound by all the relevant guidelines and provisions in force governing Zerodha’s Platform and Clients’ usage thereof."
+            },
+            {
+                "id": 8.12,
+                "content":"Cancellation or modification of an order pursuant to the Client’s request on that behalf is not guaranteed. The order may be cancelled or modified only if the Client’s request for cancellation and modification is received and the order is successfully cancelled or modified before it is executed. Market orders are subject to immediate execution wherever possible."
+            }
+        ]
+    },
+    {
+        "section_id": 9,
+        "section_name": "Margin",
+        "points": [
+            {
+                "id": 9.1,
+                "content": "The Client agrees and undertakes to immediately deposit with Zerodha such cash, securities, or any acceptable security which Zerodha may require as margin. The Client agrees that Zerodha may require the Client to deposit with Zerodha a higher margin than that prescribed by the Exchange. Zerodha may also require the Client to keep permanently with Zerodha a margin of a value specified by Zerodha, for the entire duration of time the Client desires to avail of Online Trading Service on the Platform. The Client acknowledges that the margin shall not be interest-bearing."
+            },
+            {
+                "id": 9.2,
+                "content": "Zerodha shall, at its sole discretion, have the irrevocable right to set off a part or entirety of the margin i.e- by way of appropriating the relevant amount of cash or by sale or transfer of all or some of the securities which form part of the margin, against any dues of the Client or of any member of the Group of the Client (for the purposes of these Terms, 'Group' shall mean all the individuals, group companies, firms, entities and persons specified in the schedule to the Member Client Agreement signed at the time of account opening) in the event of the failure of the Client or a member of the Group of the Client to meet any of their respective obligations under these Terms."
+            },
+            {
+                "id": 9.3,
+                "content": "The Client authorises Zerodha to determine the market value of all securities placed as margin after applying a haircut that Zerodha may deem appropriate. The Client undertakes to monitor the market value of such securities on a continuous basis. The Client further undertakes to immediately replenish any shortfall in the value of the margin consequent to a fall in the market value of such securities placed as margin, whether or not Zerodha intimates the Client of such shortfall."
+            },
+            {
+                "id": 9.4,
+                "content": "Zerodha may at its sole discretion prescribe the payment of margin in the form of cash, instead of or in addition to margin in the form of securities. The Client agrees to immediately comply with any such requirements communicated by Zerodha regarding payment of margin in the form of cash."
+            },
+            {
+                "id": 9.5,
+                "content": "Without prejudice to any of Zerodha’s other rights, Zerodha shall be entitled to liquidate or close out any or all of the Client's positions for non-payment of margins or outstanding debts. The proceeds of such liquidation or close outs, if any, shall be adjusted against the Client's liabilities and obligations. Any and all losses and financial charges on account of such liquidation or closing-out shall be charged to and borne by the Client."
+            },
+            {
+                "id": 9.6,
+                "content": "The Client agrees to abide by the exposure limits, as set from time to time by Zerodha, the Exchange, the Clearing Corporation or SEBI."
+            },
+            {
+                "id": 9.7,
+                "content": "The Client is aware that Zerodha is required to deposit sufficient margin with the Exchange to enable all its eligible clients to trade, subject to such limits as may be imposed. However, there may be times of extreme volatility wherein the deposits made by Zerodha with the Exchange may not be sufficient to cover the positions of all its Clients. In such circumstances, Zerodha’s trading terminals may be temporarily suspended on account of the cumulative effect of shortfall of margin obligations by various Clients. In these circumstances, no Client shall have the right to claim any damages from Zerodha for any losses that they might incur on account of such suspension of trading."
+            },
+            {
+                "id": 9.8,
+                "content": "The Client agrees that any securities or cash placed as margin with Zerodha may in turn be placed as margin by Zerodha with the Exchanges, banks, clearing corporations or any other institutions that Zerodha may deem fit. The Client authorises Zerodha to do all such acts and deeds that may be necessary for placing such securities or cash with the Exchanges/banks/clearing corporations/other institutions as margins."
+            },
+            {
+                "id": 9.9,
+                "content": "Any reference in these Terms to sale or transfer of securities by Zerodha shall be deemed to include sale of securities that form part of the margin maintained by the Client with Zerodha. In exercise of Zerodha's right to sell securities under these Terms, the Client agrees that the choice of specific securities to be sold shall be solely at the discretion of Zerodha."
+            }
+        ]
+    },
+    {
+        "section_id": 10,
+        "section_name": "Maintenance of trading account",
+        "points": [
+            {
+            "id": 10.1,
+            "content": "Money pay-in to Zerodha: The Client agrees that all payments due to Zerodha shall be made within the specified time period, and in the event of any delay, Zerodha may refuse, at our discretion, to carry out any transactions or close out any positions. Losses or costs, if any, incurred thereof shall be borne solely and completely by the Client. All payments made to Zerodha shall be from the Client’s account(s) registered with Zerodha. No payments shall be made to Zerodha from: (i) any Client bank accounts not registered with Zerodha; or (ii) any bank accounts belonging to any third parties."
+            },
+            {
+            "id": 10.2,
+            "content": "Money payout by Zerodha: Notwithstanding anything contained in any other agreement or arrangement between the Client and Zerodha (if any), the Client hereby authorises Zerodha to release all payments due to the Client from the trading account maintained on the Platform, against a specific request made by the Client to this effect."
+            },
+            {
+            "id": 10.3,
+            "content": "Securities pay-in to Zerodha: Delivery of all securities required for fulfilment of trades must be made from the Client to Zerodha within 24 hours of execution of the sale order, or one day before the pay-in date, whichever is earlier. The Client shall solely be responsible for reimbursing Zerodha for any losses that may accrue to Zerodha in the event of a default in delivery of the securities by Zerodha to the Exchange, which in turn are attributable to any delays in delivery of the securities by the Client to Zerodha. Losses for the purposes of this clause shall include, but not be restricted to auction debits and penalty charges incurred by Zerodha as a result of non-delivery of securities on the Exchange on the settlement date. In the event the Client has sold any securities on the Platform against purchases made in previous settlements, such sales shall solely be at the risk of the Client. The Client understands that such trades run the risk of short delivery of securities and subsequent auction debits and penalties levied by the relevant Exchange."
+            },
+            {
+            "id": 10.4,
+            "content": "Securities payout by Zerodha: Zerodha is entitled to directly credit the demat account of the Client, or maintain the trading account of the Client on the Platform on a running account basis."
+            },
+            {
+            "id": 10.5,
+            "content": "No securities belonging to any third parties shall be sold or otherwise transacted upon by the Client through their trading account on the Platform. The Client shall bear sole responsibility for any violations of this clause, including penal action by the SEBI or the Exchanges."
+            },
+            {
+            "id": 10.6,
+            "content": "In the event the Client places an order on the Platform for securities in the no-delivery period, such securities shall be credited to the Client account only at the designated time for settlement of trades as per the schedule notified by the Exchange."
+            },
+            {
+            "id": 10.7,
+            "content": "In the event that any sums of money are due from the Client to Zerodha, the Client authorises Zerodha to withhold the credit of any securities to the Client account until the relevant sums of money are provided by the Client to Zerodha in order to fulfil their obligations under these Terms."
+            },
+            {
+            "id": 10.8,
+            "content": "Zerodha is entitled to consider any cash or security available with it that is lying to the credit of the Client as margin received from the Client."
+            }
+        ]
+    },
+    {
+    "section_id": 11,
+    "section_name": "Coin: investments in mutual funds",
+    "points": [
+        {
+        "id": 11.1,
+        "content": "Coin (an application named “Coin by Zerodha”) is an order collection platform that collects orders on behalf of Clients and places these orders on the BSE StarMF platform for execution. The Client expressly agrees that Zerodha is not liable or responsible for any damages arising from non-execution or incorrect execution of orders and that Zerodha does not make any representations or warranties regarding the successful execution of any such orders. A number of issues may arise at the end of the Client, Zerodha or the Exchange. Such issues include but are not restricted to internet link failures, system failures, insufficient funds in the trading account of the Client, etc."
+        },
+        {
+        "id": 11.2,
+        "content": "The funds required for mutual fund purchases on Coin are debited directly from the Client’s bank account, and not from the Client’s fund balance available on the Platform."
+        },
+        {
+        "id": 11.3,
+        "content": "Anything not covered under these Terms, including in relation to government securities and bonds, shall be governed by the terms of Coin, available here."
+        }
+    ]
+    },
+    {
+        "section_id": 12,
+        "section_name": "Fees and brokerage",
+        "points": [
+            {
+            "id": 12.1,
+            "content": "The Client agrees to pay Zerodha all brokerages, transaction charges, commissions, fees, GST, and other taxes or levies, by whatever name so called, as informed to the Client by Zerodha from time to time in writing. Zerodha shall be entitled to deduct such fees or levies from the Client’s account or trading ledger, in lieu of the services received by the Client from Zerodha."
+            },
+            {
+            "id": 12.2,
+            "content": "All brokerages, transaction charges, commissions and fees listed on Zerodha's Platform are subject to change from time to time, in compliance with the rules prescribed by the Exchanges and SEBI, and at Zerodha’s discretion as per its business practices. Zerodha shall notify the Client with details of any changes with respect to such brokerages, transaction charges, commissions and fees, along with the dates upon which such charges shall become effective. Zerodha shall inform Clients of any such changes through an email and/or SMS sent to the Client’s registered email ID and contact number."
+            },
+            {
+            "id": 12.3,
+            "content": "An updated schedule of brokerages, transaction charges, commissions and fees applicable for the various services provided by Zerodha on the Platform is available here."
+            }
+        ]
+    },
+    {
+        "section_id": 13,
+        "section_name": "Client account termination and suspension",
+        "points": [
+            {
+            "id": 13.1,
+            "content": "There may be circumstances, including but not limited to the breach of applicable law and the Terms, wherein Zerodha will be required to suspend/terminate services offered to the Client, which will prevent the Client from utilising certain/all/any features available on the Platform."
+            },
+            {
+            "id": 13.2,
+            "content": "Upon suspension/termination of Zerodha’s services, regardless of the reason(s), the Client’s right to use the services immediately ceases. Zerodha will not be liable to the Client or any third party for any claims or damages arising out of any suspension/ termination of services or any other actions taken in connection with such suspension/termination."
+            },
+            {
+            "id": 13.3,
+            "content": "The right of Zerodha to terminate or suspend the Client’s account is in addition to any remedy or obligation prescribed by applicable law. If the Client is aggrieved by any act of Zerodha in this regard, the Client may write to Zerodha as per the grievance redressal policy as laid down in these Terms, with supporting documentation/evidence. Zerodha may deal with the grievance in accordance with applicable law. The decision of Zerodha to reinstate services is final."
+            }
+        ]
+    },
+    {
+        "section_id": 14,
+        "section_name": "Representations and warranties",
+        "points": [
+            {
+                "id": 14.1,
+                "content": "Clients represent and warrant to Zerodha the following: ",
+                "subpoints":[
+                    {
+                        "id": "14.1.a",
+                        "content": "They are capable of being a valid counterparty to these Terms, including but not limited to being of 18 years, and not barred by any law from accessing the Platform or any services offered by Zerodha, and that these Terms are not in contravention to the rights of any party with whom such Client has any agreements, at any time prior to agreeing to these Terms and while continuing to using the Platform and availing Zerodha services."
+                    },
+                    {
+                        "id": "14.1.b",
+                        "content": "They shall always provide Zerodha with valid and updated personal/corporate details about themselves that Zerodha may require, including documentary proof thereof. Such details include but are not restricted to PAN Number and Unique Identification Number issued by SEBI. The Client warrants to Zerodha that all such details represented to Zerodha are factually true."
+                    },
+                    {
+                        "id": "14.1.c",
+                        "content": "All securities deposited by the Client with Zerodha, whether in respect of margin requirements or otherwise, are owned by the Client, and the title thereof is clear and free of encumbrances."
+                    },
+                    {
+                        "id": "14.1.d",
+                        "content": "The Client has made efforts to make themselves aware of the various risks associated with executing transactions on the various Exchanges, and in particular, the risks involved in online trading via the internet on the Platform. The Client agrees not to pursue any claims against the Exchange or Zerodha on account of any suspension, interruption, non-availability or malfunctioning of the online trading system of the Exchange, or of Zerodha’s Platform, for any reasons whatsoever."
+                    },
+                    {
+                        "id": "14.1.e",
+                        "content": "The Client shall always ensure the security and confidentiality of their account password and 2FA credentials and shall undertake not to reveal these details to any unathorised persons or third parties."
+                    },
+                    {
+                        "id": "14.1.f",
+                        "content": "The Client shall bear full responsibility for all orders entered onto the Platform through their account."
+                    }
+                ]
+            },
+            {
+                "id": 14.2,
+                "content": "Zerodha represents and warrants to the Client that it has complied with and shall continue to comply with all statutory and regulatory directions in order to offer internet trading services on the Platform in the cash as well as derivatives segment of the various Exchanges."
+            }
+        ]
+    },
+    {
+        "section_id": 15,
+        "section_name": "Intellectual Property",
+        "points": [
+            {
+            "id": 15.1,
+            "content": "All intellectual property, including in relation to the Platforms, including any software, techniques and processes used, and any trademarks, logos, images, material, content, designs, information and other content available on the Platform belongs exclusively to Zerodha or is licensed to Zerodha. By no means is any proprietary right or license in any intellectual property impliedly or expressly granted by Zerodha to the Client or any other user of the Platform (together “Users”) through the User’s use of the Platform."
+            },
+            {
+            "id": 15.2,
+            "content": "You shall not copy, decompile, reverse engineer, or otherwise attempt to discover any source code, license, use or assign any intellectual property in the Platform, copy any logos, brand names, marketing or branding material or pictures from the Platform, remove any copyright and other proprietary notices contained in any content on the Platform, or use spiders, crawlers or robots for the purpose of accessing the Platform, or any content on the Platform."
+            },
+            {
+            "id": 15.3,
+            "content": "Any unauthorized use of Zerodha’s intellectual property rights in connection with any other good, service or offering will constitute an infringement of the intellectual property rights of Zerodha and may be actionable under the applicable laws."
+            }
+        ]
+    },
+    {
+        "section_id": 16,
+        "section_name": "Client Content and Platform Use",
+        "points": [
+            {
+            "id": 16.1,
+            "content": "The User is responsible for all the content that they post, upload, modify, publish, transmit, or share on the Platform (including using any artificial intelligence models, and with respect to its appropriateness, legitimacy, lawfulness and ownership) and must ensure that the content posted is in conformity with these Terms and applicable laws. Further, Zerodha is committed to protecting the principles of equality, free speech, privacy and personal liberty applicable to all Users of the Platform. However, the User shall not upload, modify, publish, transmit, or share any information or content that:",
+            "subpoints" :[
+                {
+                "id": "16.1.a",
+                "content": "does not belong to the User/User does not have any right to,"
+                },
+                {
+                "id": "16.1.b",
+                "content": "is obscene, pornographic, paedophilic, or invading another’s privacy,"
+                },
+                {
+                "id": "16.1.c",
+                "content": "is harmful to children, is insulting or harassing on the basis of gender, or is racially or ethnically objectionable,"
+                },
+                {
+                "id": "16.1.d",
+                "content": "is relating to or encouraging money laundering or gambling, or an online game that causes user harm,"
+                },
+                {
+                "id": "16.1.e",
+                "content": "is in the nature of an online game that is not verified as a permissible online game,"
+                },
+                {
+                "id": "16.1.f",
+                "content": "is promoting enmity between different groups on the grounds of religion or caste with the intent to incite violence,"
+                },
+                {
+                "id": "16.1.g",
+                "content": "infringes any intellectual property rights, other proprietary rights or any law in force,"
+                },
+                {
+                "id": "16.1.h",
+                "content": "deceives or misleads the addressee about the origin of a message or knowingly and intentionally provides any misinformation or false information,"
+                },
+                {
+                "id": "16.1.i",
+                "content": "is identified as fake or false or misleading by a fact check unit of the Indian Government, in relation to any business of the Indian government,"
+                },
+                {
+                "id": "16.1.j",
+                "content": "is an advertisement, surrogate advertisement, or promotion of an online game that is not a permissible online game, or of any online gaming intermediary offering such an online game,"
+                },
+                {
+                "id": "16.1.k",
+                "content": "impersonates another person,"
+                },
+                {
+                "id": "16.1.l",
+                "content": "threatens unity, integrity, defence, safety, security or sovereignty of India, friendly relations with other states or public order, or causes incitement to the commission of any cognizable offence or prevents investigation of any offence or is insulting other nation,"
+                },
+                {
+                "id": "16.1.m",
+                "content": "contains anything to intentionally harm a computer resource, such as viruses,"
+                },
+                {
+                "id": "16.1.n",
+                "content": "is false and published with the intent to mislead or harass persons or entities for financial gain or to cause injury,"
+                },
+                {
+                "id": "16.1.o",
+                "content": "violates any other law."
+                }
+            ]},
+            {
+            "id": 16.2,
+            "content": "Zerodha does not have any obligation to monitor any User content on the Platform. However, Zerodha, at its discretion and in accordance with applicable law, may review any content and may also remove any content from the Platform if it is determined at Zerodha’s sole discretion that such content is in violation of the Terms or any applicable law. Such actions do not in any manner negate or dilute Zerodha’s position as an intermediary under applicable laws or impose any liability on Zerodha with respect to the content. Where any User content is removed from the Platform, Zerodha will make reasonable efforts to inform the User who had posted such content about such removal. In case the User is aggrieved by Zerodha’s actions under this clause, they may write to Zerodha at legal@zerodha.com, and Zerodha will take action as per the Terms or as per any applicable law."
+            }
+        ]
+    },
+    {
+        "section_id": 17,
+        "section_name": "Third Party Sites",
+        "points": [
+            {
+                "id": 17.1,
+                "content": "The Platform may contain links or direct Users to various third-party platforms. If the User uses or clicks on any of these links, the User may be directed/redirected to such external platforms."
+            },
+            {
+                "id": 17.2,
+                "content": "If the User decides to visit any such external link, the User does so at their own risk, responsibility and liability. Zerodha does not endorse any platform linked to it or the information appearing therein or any of the products or services described therein on the Platform. Any display of third-party goods/services offered through the Platform does not in any way imply, suggest, or constitute any reputation, sponsorship, endorsement or approval by Zerodha of any such third parties. The User agrees that Zerodha is in no way responsible for the timeliness, accuracy or completeness of information that they may obtain from these third parties and which may be posted/published on the third-party platforms, and as may be amended from time to time."
+            },
+            {
+                "id": 17.3,
+                "content": "The User agrees and understands that when using the Platform, they will be exposed to User content from a variety of sources and by different Users, and that Zerodha is not responsible for the accuracy, usefulness, safety, or intellectual property rights of or relating to such User content."
+            }
+        ]
+    },
+    {
+        "section_id": 18,
+        "section_name": "Indemnities",
+        "points": [
+            {
+                "id": 18.1,
+                "content": "The Client is aware that authentication technologies and strict security measures are required for internet-based trading. The Client agrees to indemnify and hold Zerodha, its affiliates, partners, directors, employees, and agents harmless against any losses that may be suffered by it, its other customers, or any third parties: (a) as a consequence of any claim or action that may be initiated by a third party that is in any way the result of improper use of user ID, password or 2FA login credentials by the Client, (b) from failures or delays in the debit process from the bank account for transfer funds including for mutual funds, and (c) in case of bank delays or any technical issue at Zerodha's end that may lead to the delay of the fulfilment of an order and the resultant change in the NAV at which the order is placed, in the case of mutual funds."
+            },
+            {
+                "id": 18.2,
+                "content": "In the event of death, insolvency or liquidation of the Client, or their otherwise becoming incapable of receiving, paying for, delivering or transferring securities which the Client has ordered to be transacted upon through the Platform, Zerodha shall be entitled to close out the transaction on behalf of the Client. The Client and/or their legal representatives shall be liable for any losses or costs arising therefrom, and shall also be entitled to receive any surpluses which may arise thereto. The Client agrees to indemnify Zerodha for any shortfalls that may arise as a consequence of such close-out."
+            },
+            {
+                "id": 18.3,
+                "content": "By agreeing to use the Platform, the Client agrees to indemnify and hold Zerodha, its affiliates, partners, directors, employees, and agents harmless from any losses or harms that may arise due to: (i) breach by the Client of any applicable laws, rules or regulations that may have been applicable to their transactions on the Platform; (ii) breach by the Client of any of the clause contained in these Terms; and (iii) any act, neglect, misconduct or fraud by the Client."
+            }
+        ]
+    },
+    {
+        "section_id": 19,
+        "section_name": "Investment advice",
+        "points": [
+            {
+                "id": 19.1,
+                "content": "The Client agrees that none of the services available on the Platform shall be deemed to be investment advice by Zerodha."
+            },
+            {
+                "id": 19.2,
+                "content": "In the event that the Client receives any information, recommendations or advice from any employee or representative of Zerodha, then such information, recommendations or advice shall strictly be in the personal capacity of such employee or representative, and the Client may act upon it at their sole risk and costs. Zerodha shall in no way be liable or responsible for any transactions executed by the Client in pursuance of such information, recommendations or advice."
+            },
+            {
+                "id": 19.3,
+                "content": "Zerodha and its officers, directors, partners, employees, agents and affiliates shall have no responsibility with respect to any investment decisions or transactions of the Client."
+            }
+        ]
+    },
+    {
+        "section_id": 20,
+        "section_name": "Programmes & Initiatives",
+        "points": [
+            {
+                "id": 20.1,
+                "content": "Zerodha may, from time to time, run some initiatives, programmes or offers to promote Client engagement and Client education. The Client agrees that participating in such an offer is subject to their agreement to the respective offer terms and conditions, if any, in addition to these Terms. The Client further agrees that offers provided may vary from client to client."
+            },
+            {
+                "id": 20.2,
+                "content": "Zerodha’s decisions on the manner of operation of any such initiatives or programmes shall be final and binding. Zerodha reserves the absolute right to change, withdraw, modify or suspend the entirety or any part thereof of any such initiative or programme, or add new initiatives or programmes, without any prior notice to any Client or user."
+            },
+            {
+                "id": 20.3,
+                "content": "Zerodha also reserves the right to disqualify the Client from any programme or offer in case the Client does not meet the eligibility criteria or any other reasons thereof, including but not limited to misuse of offer, misrepresentation, fraud or suspicious transactions/activities, at the sole discretion of Zerodha without further notice."
+            },
+            {
+                "id": 20.4,
+                "content": "Zerodha runs a client referral program wherein Zerodha encourages Clients to refer their friends and family to begin investing with Zerodha. The terms of this referral programme may change from time to time at the sole discretion of Zerodha with or without prior intimation to the client."
+            }
+        ]
+    },
+    
+    {
+        "section_id": 21,
+        "section_name": "Force majeure",
+        "points": [
+        {
+            "id": 21.1,
+            "content": "Zerodha shall not be responsible for any delays or defaults in the performance of its obligations due to any contingencies beyond its control. Such contingencies include but are not limited to losses caused directly or indirectly by exchange or market rulings, suspension of trading, fires, floods, civil commotions or riots, earthquakes, cyclones, tsunamis, wars, strikes, pandemics or health calamities, any terrorist actions, system failures, breakdown in internet links and any regulatory actions by the government."
+        }
+        ]
+    },
+    {
+        "section_id": 22,
+        "section_name": "Severability",
+        "points": [
+            {
+                "id": 22.1,
+                "content": "In the event that any one or more of the provisions contained in these Terms become invalid, illegal or unenforceable in any respect under any law or regulations for the time being in force, the validity, legality and enforceability of the remaining provisions contained herein shall not in any way be prejudiced or affected thereto."
+            }
+        ]
+    },
+    {
+        "section_id": 23,
+        "section_name": "Refund & cancellation policy",
+        "points": [
+        {
+            "id": 23.1,
+            "content": "The refund & cancellation policy for all payments made or fees paid towards account opening or availing of any other services from Zerodha shall be as follows:",
+            "subpoints": [
+                {
+                    "id": "23.1.a",
+                    "content": "The fees paid towards account opening charges to enable the Client’s equities and commodities accounts is non-refundable. This fee is used towards initiation of an account by a client and there are various charges involved even if the account is not completely opened and activated as well. The initiation of an account includes charges for electronic data entry & maintenance, KYC, e-signing, the printing of any documents, and operational costs of the business."
+                },
+                {
+                    "id": "23.1.b",
+                    "content": "Pick up of the required documentation for account opening is subject to the availability of our representatives at any particular time and location. This service shall be separately chargeable to compensate for the effort undertaken in this regard. These charges are non-refundable."
+                },
+                {
+                    "id": "23.1.c",
+                    "content": "In case Zerodha fails to open an account within 10 days of submission of all the necessary supporting documentation and authorisations by the Client, such Clients may request a full refund of all the charges paid towards account opening."
+                },
+                {
+                    "id": "23.1.d",
+                    "content": "In case a Client has paid the charges relating to account opening multiple times, such Clients are requested to create a ticket here. Upon being so intimated, Zerodha shall initiate the necessary procedure to refund these amounts to the Client."
+                },
+                {
+                    "id": "23.1.e",
+                    "content": "In case the account opening fee is paid, but the account has not been activated (a Client ID and password have not yet been generated), a request to initiate a refund with a clear reason can be sent by the Client to Zerodha. As the account opening fee includes various charges to initiate the account opening process itself, as stated in the first point above, no charges are refunded automatically. All refund requests will be considered by Zerodha on a case to case basis."
+                }
+            ]
+        },
+        {
+            "id": 23.2,
+            "content": "Clients understand that completion of all refund procedures initiated by Zerodha is subject to fulfilment by the relevant third party agencies including banks and payment gateways."
+        }
+        ]
+    },
+    
+    {
+        "section_id": 24,
+        "section_name": "Miscellaneous",
+        "points": [
+            {
+                "id": 24.1,
+                "content": "Zerodha does not warrant that the services provided on the Platform will be uninterrupted or error-free. All services on Zerodha’s Platform are provided to the Client on an \"as is\" and \"as available\" basis, without warranties of any kind, either express or implied, including, without limitation, those of merchantability and fitness for a particular purpose."
+            },
+            {
+                "id": 24.2,
+                "content": "The Client acknowledges that online trading over the internet involves several uncertainties and complexities with respect to hardware, software, computer systems, communication lines, peripherals, etc., all of which are susceptible to interruptions and dislocations, and which may result in the Platform being unavailable without prior notice. Neither Zerodha nor the Exchange make any representations or warranties to the Client that online trading facilities on the Platform shall be available to the Client at all times without any interruptions. Clients agree that they shall not pursue any claims against Zerodha or the Exchange on account of any suspensions, interruptions, malfunctioning or non-availability of the services offered on the Platform or any part thereof, for any reason whatsoever."
+            },
+            {
+                "id": 24.3,
+                "content": "Clients hereby confirm that they have authorised Zerodha to take all such steps on the Client’s behalf as may be required to complete or settle any transactions executed with Zerodha or executed by Zerodha on behalf of the Client. However, no clause herein shall create an obligation upon Zerodha to take any such steps."
+            },
+            {
+                "id": 24.4,
+                "content": "The Client hereby authorizes Zerodha, its affiliates and representatives to contact them via phone calls and SMS, notwithstanding the Client's registration under DND."
+            },
+            {
+                "id": 24.5,
+                "content": "The failure of Zerodha to exercise any right provided herein or available under applicable law shall not be deemed a waiver of any further right hereunder. Waiver of any right by Zerodha shall not be deemed to be a waiver of any further rights of Zerodha. The exercise by Zerodha of any of its remedies under these Terms will be without prejudice to its other remedies under these Terms or otherwise."
+            },
+            {
+                "id": 24.6,
+                "content": "In the event there is any conflict between the Terms, the Privacy Policy, any other policies applicable to whole or part of the website or Zerodha’s services to the Client, and agreements entered into between Zerodha and the Client, the following order of prevalence shall apply: (i) agreements between Zerodha and the Client, (ii) any product or service-specific terms and policies, (iii) the Privacy Policy, and (iv) the Terms."
+            },
+            {
+                "id": 24.7,
+                "content": "To the fullest extent permitted by law, Zerodha and its affiliates are not and will not be liable for any indirect, remote, punitive, special, incidental, consequential, or exemplary damages (including, without limitation, loss of business, revenue, profits, and goodwill) arising out of or in connection with the User’s use or inability to use the website. In any event, the liability of Zerodha arising out of the Terms shall not exceed INR 100 (Indian Rupees One Hundred Only)."
+            }
+        ]
+    },
+    {
+        "section_id": 25,
+        "section_name": "Investor Grievance Redressal Mechanism",
+        "points": [
+            {
+                "id": 25.1,
+                "content": "Investor satisfaction is of utmost importance to Zerodha, for which we have implemented the necessary mechanisms and systems."
+            },
+            {
+                "id": 25.2,
+                "content": "The grievance officer shall be the Compliance Officer of Zerodha, name: Pankathi H Jain (for Zerodha Broking Limited) and Ashmy Narayanan (for Zerodha Commodities Pvt. Limited). All the investor grievances are monitored and redressed by the Compliance Officer of the Company who reports directly to the Board of Directors. This essentially takes care of the necessary escalation in case of any long pending and serious complaint, otherwise the same are taken care of by the Compliance Officer with the support of the Compliance team."
+            },
+            {
+                "id": 25.3,
+                "content": "The clients can email their grievances to the Compliance Officer on the email ID complaints@zerodha.com which is displayed on our Platforms and the same also mentioned on the contract notes and other correspondence if any sent to the client from time to time. The grievances will be acknowledged within 24 hours of the complaint and disposed of within 15 days of receipt."
+            },
+            {
+                "id": 25.4,
+                "content": "All the emails received are duly monitored and redressed by the Compliance Officer. The register of grievances is centrally maintained for better control and monitoring, Thus the grievances received in writing, mail, verbally, etc. are centrally monitored and redressed and recorded with all the necessary steps taken for redressal of the same. Proper analysis is undertaken to analyse the nature of complaints received, pattern of complaints and concentration if any at a particular location so that every effort is taken to remove the root cause of the grievance by the client. Periodic visits and inspections are undertaken for the branches and authorised partners to get the feedback of clients on the issues. Depending on the feedback received necessary corrective steps are introduced into the system."
+            },
+            {
+                "id": 25.5,
+                "content": "For ensuring that the funds received from the particular clients are properly accounted for, no cheques and cash are collected, at various locations or at the Head Office where centralized accounting is maintained, by which it is ensured that the funds are credited to the account of the correct client and also from the particular accounts mentioned in the client account master in the Back office software maintained centrally. No other separate software is maintained for maintaining client account details. Thus every attempt is made to redress the grievance/problems of the clients and introduce systematic changes into the processes so that such instances are avoided."
+            }
+        ]
+    },
+    {
+        "section_id": 26,
+        "section_name": "Notice",
+        "points": [
+            {
+                "id": 26.1,
+                "content": "All notices, correspondences or communications issued under these Terms shall be served in any one or more of the following modes of communications, and such notices or correspondence shall be served at the last known email address/ residential address/ ordinary place of business of all parties to these Terms. The modes of communication include:\n1. Delivery by hand\n2. Delivery by registered/unregistered post\n3. Delivery under certificate of posting\n4. Delivery by email or fax\n5. By affixing on the door at the last known business or residential address.\n6. By oral communication to the party or on the last known telephone number or on the recording machine of such number.\n7. By advertising in at least one prominent daily newspaper having circulation in the area where the last known business or residential address of the party is situated.\n8. By notice posted on the notice board of Zerodha if no address is known."
+            },
+            {
+                "id": 26.2,
+                "content": "Any communication sent by Zerodha to the Client shall be deemed to have been properly delivered or served, if such communication is returned to Zerodha as unclaimed/refused/undelivered, if such communication was sent in any of the modes illustrated above."
+            },
+            {
+                "id": 26.3,
+                "content": "Communication received by clients of Zerodha through registered email IDs and phone numbers: This information is limited for consumption of the client only, and these emails should not be reshared with others."
+            }
+        ]
+    },
+    {
+        "section_id": 27,
+        "section_name": "Governing Law, Jurisdiction and Dispute Resolution",
+        "points": [
+            {
+                "id": 27.1,
+                "content": "The Terms and the use of the website are governed by and construed in accordance with the laws of India."
+            },
+            {
+                "id": 27.2,
+                "content": "In the event any dispute or difference arises between the User and Zerodha in connection with the validity, interpretation, termination and implementation or alleged breach of any provision of the Terms (“Dispute”), both Parties hereto shall endeavour to settle such Dispute within a period of 30 days, amicably with each other and in good faith."
+            },
+            {
+                "id": 27.3,
+                "content": "Upon failure to amicably settle any Dispute, the User must give written notice to Zerodha and refer the Dispute to be resolved by arbitration to be conducted by a sole arbitrator, mutually appointed by both parties to settle the Dispute. The arbitration proceedings shall be conducted in accordance with the rules of the Mumbai Centre for International Arbitration. If both Parties are unable to mutually agree upon an arbitrator, the Mumbai Centre for International Arbitration shall appoint the sole arbitrator. The venue and seat of arbitration shall be Bangalore, India. The arbitration proceedings shall be conducted in English. The arbitral award shall be substantiated in writing."
+            },
+            {
+                "id": 27.4,
+                "content": "The courts in Bangalore, India shall have exclusive jurisdiction over all matters connected with these Terms and Your use of the website."
+            }
+        ]
+    },
+    {
+        "section_id": 28,
+        "section_name": "Contact Us",
+        "points": [
+            {
+                "id": 28.1,
+                "content": "Please reach out to compliance@zerodha.com if you have any questions or concerns regarding the Terms."
+            }
+        ]
+    }
+
+
+
+
+
+
+
+    
+]}
