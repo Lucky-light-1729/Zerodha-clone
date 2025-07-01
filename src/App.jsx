@@ -1,6 +1,6 @@
 import React from 'react'
 import './App.css'
-import Navbar from './Navbar'
+import NavbarLink from './NavbarLink'
 import FooterLink from './FooterLink'
 import  ScrollToTop from './ScrollToTop'
 
@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <ScrollToTop />
-      <Navbar/>
+      <NavbarLink/>
       <FooterLink/> 
     </div>
   )
