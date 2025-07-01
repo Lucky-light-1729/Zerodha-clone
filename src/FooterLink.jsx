@@ -2,15 +2,16 @@ import React from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Footer from './footer'
 import TermsPage from './terms'
-
+import PrivacyPage from './privacy'
 function FooterLink( ){
   return (
     <div>
         <Routes>
             <Route path="/terms" element={<TermsPage />} />
+            
+            <Route path="/privacy" element={<PrivacyPage />} /> 
             {/* 
             <Route path="/policies" element={<TermsPage />} /> 
-            <Route path="/privacy" element={<TermsPage />} /> 
             <Route path="/disclosure" element={<TermsPage />} /> 
             <Route path="/investor-attention" element={<TermsPage />} /> 
             <Route path="/investor-charter" element={<TermsPage />} /> 
