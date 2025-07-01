@@ -1,16 +1,17 @@
 import React from 'react'
 import './App.css'
-import Navbar from "./Navbar";
-import Policies from "./Component/Policies";
-import Disclousure from './Component/Disclousure';
+
+import Navbar from './Navbar'
+import FooterLink from './FooterLink'
+import  ScrollToTop from './ScrollToTop'
 
 function App() {
 
   return (
     <div>
-   <Navbar />
-   {/* <Policies /> */}
-   <Disclousure />
+      <ScrollToTop />
+      <Navbar/>
+      <FooterLink/> 
     </div>
   )
 }
