@@ -10,7 +10,7 @@ import youtube from "./assets/img/youtube.svg";
 import whatsapp from "./assets/img/whatsapp.svg";
 import telegram from "./assets/img/telegram.svg";
 
-import FooterColumn from "./FooterColumn";
+import FooterColumn from "./Component/FooterColumn";
 
 const SOCIAL_ICONS_TOP = [
   { alt: "X / Twitter", href: "https://twitter.com", src: xTwitter },
