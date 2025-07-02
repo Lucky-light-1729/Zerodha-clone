@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './App.css
 import NavbarLink from './NavbarLink'
 import FooterLink from './FooterLink'
 import  ScrollToTop from './ScrollToTop'
