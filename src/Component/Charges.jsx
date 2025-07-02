@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
-import price1 from '../assets/price1.svg';
-import price2 from '../assets/price2.svg';
+import price1 from '../assets/img/price1.svg';
+import price2 from '../assets/img/price2.svg';
 
-import { chargesSections, accountOpening, optionalServices  } from './ChargesContent';
+import { chargesSections, accountOpening, optionalServices  } from '../assets/data/ChargesContent';
 
 function Charges() {
   const [activeTab, setActiveTab] = useState('equityDelivery');

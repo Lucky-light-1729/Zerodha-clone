@@ -7,7 +7,7 @@ import {
   mcxHolidaysData,
   bulletinData,
   circular as circularsData // 👈 rename 'circular' to 'circularsData'
-} from "./MarketContent";
+} from "../assets/data/MarketContent";
 
 const tabs = [
   { id: "bulletin", label: "Bulletin" },

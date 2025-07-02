@@ -1,5 +1,5 @@
 import React from 'react';
-import policiesData from './PoliciesData';
+import policiesData from '../assets/data/policiesData';
 
 const Policies = () => {
   return (

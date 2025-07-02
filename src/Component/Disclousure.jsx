@@ -1,6 +1,6 @@
 // src/pages/Disclosure.jsx
 import React from 'react';
-import disclosureContent from '../Component/DisclousureContent';
+import disclosureContent from '../assets/data/DisclousureContent';
 
 const Disclosure = () => {
   return (
