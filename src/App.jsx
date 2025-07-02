@@ -1,23 +1,22 @@
-import React from 'react'
-<<<<<<< HEAD
-import './App.css
-=======
-import './App.css'
-
->>>>>>> 7015ed1cf24d58919eab6c98bd0204428a97529c
-import Navbar from './Navbar'
-import FooterLink from './FooterLink'
-import  ScrollToTop from './ScrollToTop'
+import React from 'react';
+import Navbar from './Navbar';
+import FooterLink from './FooterLink';
+import ScrollToTop from './ScrollToTop';
+import HolidayCalendar from './Component/Market-holiday';
+import InvestoreCharter from './Component/InvestoreCharter'; // make sure file name matches
 
 function App() {
-
   return (
-    <div>
-      <ScrollToTop />
-      <Navbar/>
-      <FooterLink/> 
-    </div>
-  )
+    <>
+      <Navbar />
+      <InvestoreCharter />
+      {/* Add more components here */}
+    </>
+  );
 }
 
-export default App
+export default App;
+
+
+
+

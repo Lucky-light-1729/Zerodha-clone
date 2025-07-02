@@ -1,12 +1,11 @@
-// src/components/HolidayCalendar.jsx
-
-import React, { useState } from "react";
+import React from "react";
+import { NavLink, useParams } from "react-router-dom";
 import {
   holidaysData,
   settlementHolidaysData,
   mcxHolidaysData,
   bulletinData,
-  circular as circularsData // 👈 rename 'circular' to 'circularsData'
+  circular as circularsData,
 } from "./MarketContent";
 
 const tabs = [
@@ -17,24 +16,23 @@ const tabs = [
   { id: "updates", label: "Updates" },
 ];
 
-const tabContent = {
-  bulletin: "This is the bulletin section. View all recent notices and bulletins.",
-  circulars: "This section contains all circulars issued to traders and investors.",
-  holiday: "Below is the list of stock market holidays for NSE, BSE, and MCX in 2025.",
-  disclosures: "This section provides regulatory and legal disclosures.",
-  updates: "Stay updated with all the platform and trading changes here.",
+const tabHeadings = {
+  bulletin: "Bulletin",
+  circulars: "Circulars",
+  holiday: "Stock market holiday calendar for NSE and BSE 2025",
+  disclosures: "Disclosures",
+  updates: "Updates",
 };
 
 const HolidayCalendar = () => {
-  const [activeTab, setActiveTab] = useState("holiday");
+  const { tabId } = useParams();
 
   return (
     <div className="max-w-6xl mx-auto px-4 py-10 mt-14">
       <h1 className="text-5xl text-center mb-6">
-        Stock market holiday calendar
-        <br />
-        for NSE and BSE 2025
+        {tabHeadings[tabId] || "Holiday Calendar"}
       </h1>
+
       <center>
         <button className="text-center hover:cursor-pointer text-cyan-900 text-xl">
           Subscribe
@@ -44,27 +42,24 @@ const HolidayCalendar = () => {
       {/* Tabs */}
       <div className="flex justify-center gap-4 mb-8 mt-6">
         {tabs.map((tab) => (
-          <button
+          <NavLink
             key={tab.id}
-            onClick={() => setActiveTab(tab.id)}
-            className={`px-4 py-2 border ${
-              activeTab === tab.id
-                ? "bg-blue-500 text-white"
-                : "bg-gray-100 text-gray-800"
-            }`}
+            to={`/market/${tab.id}`}
+            className={({ isActive }) =>
+              `px-4 py-2 border ${
+                isActive ? "bg-blue-500 text-white" : "bg-gray-100 text-gray-800"
+              }`
+            }
           >
             {tab.label}
-          </button>
+          </NavLink>
         ))}
       </div>
 
-      {/* Tab content */}
+      {/* Tab Content */}
       <div className="p-6 rounded shadow">
-        <p className="mb-4 text-gray-700">{tabContent[activeTab]}</p>
-
-        {/* Holiday Tab */}
-        {activeTab === "holiday" && (
-          <div className="overflow-x-auto">
+        {tabId === "holiday" && (
+          <>
             <table className="min-w-full border">
               <thead className="bg-gray-200">
                 <tr>
@@ -76,7 +71,7 @@ const HolidayCalendar = () => {
               </thead>
               <tbody>
                 {holidaysData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-100">
+                  <tr key={index}>
                     <td className="p-2 border">{item.day}</td>
                     <td className="p-2 border">{item.date}</td>
                     <td className="p-2 border">{item.holiday}</td>
@@ -86,7 +81,6 @@ const HolidayCalendar = () => {
               </tbody>
             </table>
 
-            {/* Settlement Holidays */}
             <h3 className="text-3xl text-center mt-8">Settlement Holidays</h3>
             <table className="min-w-full border mt-5">
               <thead className="bg-gray-200">
@@ -99,7 +93,7 @@ const HolidayCalendar = () => {
               </thead>
               <tbody>
                 {settlementHolidaysData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-100">
+                  <tr key={index}>
                     <td className="p-2 border">{item.day}</td>
                     <td className="p-2 border">{item.date}</td>
                     <td className="p-2 border">{item.holiday}</td>
@@ -109,7 +103,6 @@ const HolidayCalendar = () => {
               </tbody>
             </table>
 
-            {/* MCX Holidays */}
             <h3 className="text-3xl text-center mt-8">MCX Holidays</h3>
             <table className="min-w-full border mt-5">
               <thead className="bg-gray-200">
@@ -122,7 +115,7 @@ const HolidayCalendar = () => {
               </thead>
               <tbody>
                 {mcxHolidaysData.map((item, index) => (
-                  <tr key={index} className="hover:bg-gray-100">
+                  <tr key={index}>
                     <td className="p-2 border">{item.day}</td>
                     <td className="p-2 border">{item.date}</td>
                     <td className="p-2 border">{item.holiday}</td>
@@ -131,16 +124,19 @@ const HolidayCalendar = () => {
                 ))}
               </tbody>
             </table>
-          </div>
+
+            <p className="text-center text-cyan-500 text-xl cursor-pointer mt-5">
+              What is a settlement holiday?
+            </p>
+          </>
         )}
 
-        {/* Bulletin Tab */}
-        {activeTab === "bulletin" && (
+        {tabId === "bulletin" && (
           <div className="space-y-6">
             {bulletinData.map((item, index) => (
               <div key={index}>
                 <p className="text-sm text-gray-500">{item.date}</p>
-                <p className="text-blue-600 font-medium text-md hover:underline hover:cursor-pointer">
+                <p className="text-blue-600 font-medium text-md hover:underline cursor-pointer">
                   {item.title}
                 </p>
               </div>
@@ -148,14 +144,13 @@ const HolidayCalendar = () => {
           </div>
         )}
 
-        {/* Circulars Tab */}
-        {activeTab === "circulars" && (
+        {tabId === "circulars" && (
           <div className="space-y-6">
             {circularsData.map((item, index) => (
               <div key={index} className="flex items-start gap-4">
                 <div>
                   <p className="text-sm text-gray-500">{item.date}</p>
-                  <p className="text-blue-600 font-medium text-md hover:underline hover:cursor-pointer">
+                  <p className="text-blue-600 font-medium text-md hover:underline cursor-pointer">
                     {item.title}
                   </p>
                 </div>
@@ -173,13 +168,45 @@ const HolidayCalendar = () => {
           </div>
         )}
 
-        <p className="text-center text-cyan-500 text-xl cursor-pointer mt-5">
-          What is a settlement holiday?
-        </p>
+        {tabId === "disclosures" && (
+          <div className="space-y-6">
+            {circularsData.map((item, index) => (
+              <div key={index} className="flex items-start gap-4">
+                <div>
+                  <p className="text-sm text-gray-500">{item.date}</p>
+                  <p className="text-blue-600 font-medium text-md hover:underline cursor-pointer">
+                    {item.title}
+                  </p>
+                </div>
+                <span
+                  className={`px-2 py-0.5 text-xs h-fit mt-1 rounded ${
+                    item.exchange === "BSE"
+                      ? "bg-blue-100 text-blue-800"
+                      : "bg-red-100 text-red-800"
+                  }`}
+                >
+                  {item.exchange}
+                </span>
+              </div>
+            ))}
+          </div>
+        )}
+
+        {tabId === "updates" && (
+          <p className="text-center text-blue-600 text-xl">
+            Visit:{" "}
+            <a
+              href="https://zerodha.com/z-connect/updates"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Zerodha Updates
+            </a>
+          </p>
+        )}
       </div>
     </div>
   );
 };
-  
-export default HolidayCalendar;
 
+export default HolidayCalendar;
