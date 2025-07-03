@@ -1,4 +1,4 @@
-import investorAttentionContent from "./InvestorData"; 
+import investorAttentionContent from "../assets/data/InvestorAttentionData"; 
 import React from "react";
 
 function Investor() {
