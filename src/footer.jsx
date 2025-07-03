@@ -117,8 +117,8 @@ const Footer = () => (
             ["Support portal", "/support"],
             ["How to file a complaint?", "/support/how-to-complain"],
             ["Status of your complaints", "/support/complaint-status"],
-            ["Bulletin", "/bulletin"],
-            ["Circular", "/circulars"],
+            ["Bulletin", "/market/bulletin"],
+            ["Circular", "/market/circulars"],
             ["Z‑Connect blog", "/blog"],
             ["Downloads", "/downloads"],
           ]}
@@ -142,7 +142,7 @@ const Footer = () => (
           links={[
             ["Upcoming IPOs", "/ipos"],
             ["Brokerage charges", "/charges"],
-            ["Market holidays", "/market-holidays"],
+            ["Market holidays", "/market/holiday"],
             ["Economic calendar", "/economic-calendar"],
             ["Calculators", "/calculators"],
             ["Markets", "/markets"],
