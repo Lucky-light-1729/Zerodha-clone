@@ -14,7 +14,9 @@ import Disclosure from './Component/Disclousure';
 import InvestorAttention from './Component/InvestorAttention';
 import MarketHoliday from './Component/Market-holiday';
 import OpenSourceInitiatives from './Component/OpenSource';
-
+import SectorList from './Component/sectors';
+import EconomicCalendar from './Component/EconomicCalendar';
+import ZerodhaTech from './Component/Tech'
 function AppRouter() {
   return (
     <>
@@ -60,18 +62,20 @@ function AppRouter() {
         <Route path="/media" element={<TermsPage />} />
         <Route path="/careers" element={<TermsPage />} />
         <Route path="/csr" element={<TermsPage />} />
-        <Route path="/tech" element={<TermsPage />} />
         */}
+        <Route path="/tech" element={<ZerodhaTech />} />
         <Route path="/open-source" element={<OpenSourceInitiatives />} />
         {/*
         <Route path="/ipos" element={<TermsPage />} />
         <Route path="/charges" element={<TermsPage />} />
-
-        <Route path="/economic-calendar" element={<TermsPage />} />
+        */} 
+        <Route path="/economic-calendar" element={<EconomicCalendar />} />
+        {/*
         <Route path="/calculators" element={<TermsPage />} />
         <Route path="/markets" element={<TermsPage />} />
-        <Route path="/sectors" element={<TermsPage />} />
-        */}
+        */} 
+        <Route path="/sectors" element={<SectorList />} />
+        
 
         {/* ----------NAVBAR LINKS ---------- */}
         {/*
