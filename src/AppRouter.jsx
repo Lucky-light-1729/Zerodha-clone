@@ -17,6 +17,8 @@ import OpenSourceInitiatives from './Component/OpenSource';
 import SectorList from './Component/sectors';
 import EconomicCalendar from './Component/EconomicCalendar';
 import ZerodhaTech from './Component/Tech'
+import CalculatorSip from './Component/CalculatorSip';
+import InvestorCharter from './Component/investorCharter';
 function AppRouter() {
   return (
     <>
@@ -33,12 +35,10 @@ function AppRouter() {
         <Route path="/privacy" element={<PrivacyPage />} />
         <Route path="/disclosure" element={<Disclosure />} />
         <Route path="/investor-attention" element={<InvestorAttention />} />
-        <Route path="/market/:tabId" element={<Market />} />
-
+        <Route path="/market/:tabId" element={<Market />} />        
+        <Route path="/investor-charter" element={<InvestorCharter />} />
         {/* ---------- FOOTER LINKS ---------- */}
         {/*
-        <Route path="/investor-charter" element={<TermsPage />} />
-
         <Route path="/open-account" element={<TermsPage />} />
         <Route path="/open-account/minor" element={<TermsPage />} />
         <Route path="/open-account/nri" element={<TermsPage />} />
@@ -87,8 +87,10 @@ function AppRouter() {
 
         <Route path="/brokerage-calculator" element={<TermsPage />} />
         <Route path="/margin-calculator" element={<TermsPage />} />
-        <Route path="/sip-calculator" element={<TermsPage />} />
-
+        */}
+        <Route path="/sip-calculator" element={<CalculatorSip />} />
+        
+        {/*
         <Route path="/varsity" element={<TermsPage />} />
         <Route path="/trading-qa" element={<TermsPage />} />
         */}
