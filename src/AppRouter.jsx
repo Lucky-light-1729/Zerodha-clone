@@ -1,6 +1,6 @@
 // src/AppRouter.js
 import React from 'react';
-import { Routes, Route /*, Navigate */ } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 
 import Navbar from './Navbar';
 import Footer from './footer';
@@ -12,7 +12,7 @@ import PrivacyPage from './Component/privacy';
 import Policies from './Component/Policies';
 import Disclosure from './Component/Disclousure';
 import InvestorAttention from './Component/InvestorAttention';
-import MarketHoliday from './Component/Market-holiday';
+import Market from './Component/Market';
 import OpenSourceInitiatives from './Component/OpenSource';
 import SectorList from './Component/sectors';
 import EconomicCalendar from './Component/EconomicCalendar';
@@ -33,7 +33,7 @@ function AppRouter() {
         <Route path="/privacy" element={<PrivacyPage />} />
         <Route path="/disclosure" element={<Disclosure />} />
         <Route path="/investor-attention" element={<InvestorAttention />} />
-        <Route path="/market-holidays" element={<MarketHoliday />} />
+        <Route path="/market/:tabId" element={<Market />} />
 
         {/* ---------- FOOTER LINKS ---------- */}
         {/*
@@ -52,8 +52,10 @@ function AppRouter() {
         <Route path="/support" element={<TermsPage />} />
         <Route path="/support/how-to-complain" element={<TermsPage />} />
         <Route path="/support/complaint-status" element={<TermsPage />} />
-        <Route path="/bulletin" element={<TermsPage />} />
-        <Route path="/circulars" element={<TermsPage />} />
+        */}
+        <Route path="/market/:tabId" element={<Market />} />
+        <Route path="/market/:tabId" element={<Market />} />
+        {/*
         <Route path="/blog" element={<TermsPage />} />
         <Route path="/downloads" element={<TermsPage />} />
 
