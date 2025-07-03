@@ -1,5 +1,5 @@
 import React from "react";
-import { investorCharterContent, dosAndDonts } from './InvestoreContent';
+import { investorCharterContent, dosAndDonts } from '../assets/data/investorCharterContent';
 
 function InvestoreCharter() {
   const {

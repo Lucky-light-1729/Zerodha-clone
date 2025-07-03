@@ -18,6 +18,7 @@ import SectorList from './Component/sectors';
 import EconomicCalendar from './Component/EconomicCalendar';
 import ZerodhaTech from './Component/Tech'
 import CalculatorSip from './Component/CalculatorSip';
+import InvestorCharter from './Component/investorCharter';
 function AppRouter() {
   return (
     <>
@@ -34,12 +35,10 @@ function AppRouter() {
         <Route path="/privacy" element={<PrivacyPage />} />
         <Route path="/disclosure" element={<Disclosure />} />
         <Route path="/investor-attention" element={<InvestorAttention />} />
-        <Route path="/market/:tabId" element={<Market />} />
-
+        <Route path="/market/:tabId" element={<Market />} />        
+        <Route path="/investor-charter" element={<InvestorCharter />} />
         {/* ---------- FOOTER LINKS ---------- */}
         {/*
-        <Route path="/investor-charter" element={<TermsPage />} />
-
         <Route path="/open-account" element={<TermsPage />} />
         <Route path="/open-account/minor" element={<TermsPage />} />
         <Route path="/open-account/nri" element={<TermsPage />} />
