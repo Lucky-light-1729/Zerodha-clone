@@ -19,6 +19,7 @@ import EconomicCalendar from './Component/EconomicCalendar';
 import ZerodhaTech from './Component/Tech'
 import CalculatorSip from './Component/CalculatorSip';
 import InvestorCharter from './Component/investorCharter';
+import Signup from './Component/Signup';
 function AppRouter() {
   return (
     <>
@@ -80,8 +81,9 @@ function AppRouter() {
         
 
         {/* ----------NAVBAR LINKS ---------- */}
+        
+        <Route path="/signup" element={<Signup />} />
         {/*
-        <Route path="/signup" element={<TermsPage />} />
         <Route path="/products" element={<TermsPage />} />
         <Route path="/pricing" element={<TermsPage />} />
 
