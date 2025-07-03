@@ -17,6 +17,7 @@ import OpenSourceInitiatives from './Component/OpenSource';
 import SectorList from './Component/sectors';
 import EconomicCalendar from './Component/EconomicCalendar';
 import ZerodhaTech from './Component/Tech'
+import CalculatorSip from './Component/CalculatorSip';
 function AppRouter() {
   return (
     <>
@@ -87,8 +88,10 @@ function AppRouter() {
 
         <Route path="/brokerage-calculator" element={<TermsPage />} />
         <Route path="/margin-calculator" element={<TermsPage />} />
-        <Route path="/sip-calculator" element={<TermsPage />} />
-
+        */}
+        <Route path="/sip-calculator" element={<CalculatorSip />} />
+        
+        {/*
         <Route path="/varsity" element={<TermsPage />} />
         <Route path="/trading-qa" element={<TermsPage />} />
         */}
