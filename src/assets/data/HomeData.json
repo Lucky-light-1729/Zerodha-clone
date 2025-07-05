@@ -1,0 +1,71 @@
+[
+  {
+    "type": "hero",
+    "image": "/img/landing.png",
+    "heading": "Invest in everything",
+    "subheading": "Online platform to invest in stocks, derivatives, mutual funds, ETFs, bonds, and more.",
+    "buttonText": "Sign up for free",
+    "buttonLink": "/open-account"
+  },
+  {
+    "type": "info-section",
+    "heading": "Trust with confidence",
+    "features": [
+      {
+        "title": "Customer-first always",
+        "description": "That's why 1.6+ crore customers trust Zerodha with ~ ₹6 lakh crores of equity investments and contribute to 15% of daily retail exchange volumes in India."
+      },
+      {
+        "title": "No spam or gimmicks",
+        "description": "No gimmicks, spam, \"gamification\", or annoying push notifications. High quality apps that you use at your pace, the way you like.",
+        "link": {
+          "text": "Our philosophies",
+          "href": "/philosophy"
+        }
+      },
+      {
+        "title": "The Zerodha universe",
+        "description": "Not just an app, but a whole ecosystem. Our investments in 30+ fintech startups offer you tailored services specific to your needs."
+      },
+      {
+        "title":"Ecosystem",
+        "image":"/img/ecosystem.png",
+        "href":"/products"
+      }
+    ]
+  },
+  {
+    "type":"press-logo",
+    "image":"/img/press-logo.png",
+    "link":"/media"
+
+  },
+  {
+    "type": "pricing",
+    "heading": "Unbeatable pricing",
+    "description": "We pioneered the concept of discount broking and price transparency in India. Flat fees and no hidden charges.",
+    "points": [
+      "₹0 Free account opening",
+      "₹0 Free equity delivery and direct mutual funds",
+      "₹20 Intraday and F&O"
+    ],
+    "linkText": "See pricing",
+    "linkHref": "/charges"
+  },
+  {
+    "type": "education",
+    "image":"/img/index-education.svg",
+    "heading": "Free and open market education",
+    "varsityText": "Varsity, the largest online stock market education book in the world covering everything from the basics to advanced trading.",
+    "varsityLink": "/varsity",
+    "communityText": "TradingQ&A, the most active trading and investment community in India for all your market related queries.",
+    "communityLink": "https://tradingqna.com"
+  },
+  {
+    "type": "cta",
+    "heading": "Open a Zerodha account",
+    "subheading": "Modern platforms and apps, ₹0 investments, and flat ₹20 intraday and F&O trades.",
+    "buttonText": "Sign up for free",
+    "buttonLink": "/open-account/"
+  }
+]

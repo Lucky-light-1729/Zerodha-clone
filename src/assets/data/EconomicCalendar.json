@@ -1,0 +1,182 @@
+{
+  "economic_calendar": [
+    {
+      "date": "Wed, 02 Jul 2025",
+      "events": [
+        {
+          "region": "global",
+          "importance": "High",
+          "event": "Inflation (Korea)",
+          "previous": "1.9",
+          "actual": "2.2",
+          "unit": "YoY%"
+        },
+        {
+          "region": "global",
+          "importance": "Medium",
+          "event": "Unemployment (Italy)",
+          "previous": "6.1",
+          "actual": "6.5",
+          "unit": "YoY%"
+        },
+        {
+          "region": "global",
+          "importance": "Medium",
+          "event": "Unemployment (Euro area)",
+          "previous": "6.27",
+          "actual": "6.29",
+          "unit": "YoY%"
+        },
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "Power Generation",
+          "previous": "-4.66",
+          "actual": "-1.37",
+          "unit": "YoY%"
+        },
+        {
+          "region": "global",
+          "importance": "High",
+          "event": "Central Bank Policy Rate (Poland)",
+          "previous": "5.25",
+          "actual": "5",
+          "unit": "%"
+        },
+        {
+          "region": "global",
+          "importance": "Medium",
+          "event": "Industrial Production (Brazil)",
+          "previous": "-0.5",
+          "actual": "3.3",
+          "unit": "YoY%"
+        }
+      ]
+    },
+    {
+      "date": "Thu, 03 Jul 2025",
+      "events": [
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "Domestic Airline Cargo Carried",
+          "previous": "8.4",
+          "actual": "-",
+          "unit": "YoY%"
+        },
+        {
+          "region": "india",
+          "importance": "Low",
+          "event": "Rural Wage Growth",
+          "previous": "6.1",
+          "actual": "-",
+          "unit": "YoY%"
+        },
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "Domestic Airline Passenger Load Factor",
+          "previous": "86.1",
+          "actual": "-",
+          "unit": "%"
+        },
+        {
+          "region": "global",
+          "importance": "Medium",
+          "event": "Merchandise Trade Balance (Australia)",
+          "previous": "3.4",
+          "actual": "-",
+          "unit": "US$ bn"
+        },
+        {
+          "region": "global",
+          "importance": "Medium",
+          "event": "Merchandise Exports (Australia)",
+          "previous": "0.3",
+          "actual": "-",
+          "unit": "YoY%"
+        },
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "Portfolio Net Equity Flows",
+          "previous": "2.34",
+          "actual": "-",
+          "unit": "US$ bn"
+        },
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "Portfolio Net Debt Flows",
+          "previous": "1.2",
+          "actual": "-",
+          "unit": "US$ bn"
+        },
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "State Government Receipts",
+          "previous": "4.94",
+          "actual": "-",
+          "unit": "YoY%"
+        },
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "State Government Expenditure",
+          "previous": "8.12",
+          "actual": "-",
+          "unit": "YoY%"
+        },
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "NREGA Demand",
+          "previous": "1.2",
+          "actual": "-",
+          "unit": "YoY%"
+        },
+        {
+          "region": "india",
+          "importance": "Medium",
+          "event": "Naukri JobSpeak Index",
+          "previous": "0.3",
+          "actual": "-",
+          "unit": "YoY%"
+        },
+        {
+          "region": "global",
+          "importance": "Medium",
+          "event": "Unemployment (United States)",
+          "previous": "4.2",
+          "actual": "-",
+          "unit": "YoY%"
+        },
+        {
+          "region": "global",
+          "importance": "High",
+          "event": "Monthly Non Farm (United States)",
+          "previous": "139000",
+          "actual": "-",
+          "unit": "Number"
+        },
+        {
+          "region": "global",
+          "importance": "Medium",
+          "event": "External Debt (Euro area)",
+          "previous": "17829.32",
+          "actual": "-",
+          "unit": "US$ bn"
+        },
+        {
+          "region": "global",
+          "importance": "High",
+          "event": "Inflation (Türkiye)",
+          "previous": "35.4",
+          "actual": "-",
+          "unit": "YoY%"
+        }
+      ]
+    }
+  ]
+}
